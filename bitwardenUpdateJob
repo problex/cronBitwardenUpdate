@@ -1,0 +1,5 @@
+#!/bin/bash
+/home/twadmin/bitwardeninstall/bitwarden.sh stop
+rsync -av -e /home/twadmin  /mnt/NetBackup
+/home/twadmin/bitwardeninstall/bitwarden.sh updateself
+/home/twadmin/bitwardeninstall/bitwarden.sh update
