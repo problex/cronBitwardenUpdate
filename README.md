@@ -13,4 +13,4 @@ sudo crontab -e
 
 Run every Saturday at 2am
 
-0 2 * * 6 /home/twadmin/scripts/bitwardenUpdateJob.sh
+0 2 * * 6 sudo /home/twadmin/scripts/bitwardenUpdateJob.sh
