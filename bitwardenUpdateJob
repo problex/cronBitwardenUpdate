@@ -3,3 +3,4 @@
 rsync -av -e /home/twadmin  /mnt/NetBackup
 /home/twadmin/bitwardeninstall/bitwarden.sh updateself
 /home/twadmin/bitwardeninstall/bitwarden.sh update
+echo "Script run from cron job on twludk1" | mail -s "Bitwarden Backup and Update complete" it@transworks.co.nz -a "From: notifications@transworks.co.nz"
