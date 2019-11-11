@@ -13,4 +13,4 @@ sudo crontab -e
 
 Run every Saturday at 2am
 
-0 2 * * 6 sudo /home/twadmin/scripts/bitwardenUpdateJob.sh
+0 2 * * 6 sudo /home/twadmin/scripts/bitwardenUpdateJob.sh | | /usr/bin/mail -s "Bitwarden Update Output" it@transworks.co.nz -a "From: notifications@transworks.co.nz"
